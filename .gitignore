@@ -1,0 +1,48 @@
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# MLflow local database and artifacts
+mlflow.db
+mlflow.db-*
+mlruns/
+mlartifacts/
+
+# Serialized model artifacts
+models/*.joblib
+models/*.pkl
+
+# Generated datasets
+data/*.csv
+
+# Generated interactive HTML reports
+reports/evidently/*.html
+
+# Generated runtime monitoring reports
+reports/pipeline/
+reports/retraining_requests/
+
+# Environment variables and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# macOS system files
+.DS_Store
+
+# IDE configurations
+.vscode/
+.idea/
+.antigravity/
+
+# Temporary files and logs
+*.log
+*.tmpreports.zip

@@ -1,0 +1,8 @@
+{
+    "model": "LinearRegression",
+    "training_samples": 800,
+    "testing_samples": 200,
+    "mae": 78612.07508693305,
+    "rmse": 96811.56314749146,
+    "r2": 0.9965696796768844
+}

@@ -1,0 +1,2 @@
+model_name,previous_version,new_version,mae,r2,mae_improvement_pct,promotion_status
+HousePriceDriftModel,1,2,79957.94477137309,0.9983794463172644,97.33740408150419,promoted

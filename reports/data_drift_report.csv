@@ -1,0 +1,10 @@
+scenario,feature,test,reference_mean,current_mean,statistic,p_value,drift_detected
+normal,house_size,KS,1545.845,1550.185,0.055,0.9238374197330625,False
+normal,bedrooms,Chi-square,2.47,2.58,2.3020665369289226,0.5121251289689694,False
+normal,house_age,KS,14.605,15.435,0.115,0.1420746514551761,False
+data_drift,house_size,KS,1545.845,2878.25,1.0,1.9426434495222354e-119,True
+data_drift,bedrooms,Chi-square,2.47,2.535,0.4602430117549782,0.9275348868249519,False
+data_drift,house_age,KS,14.605,14.535,0.075,0.6284308022715471,False
+concept_drift,house_size,KS,1545.845,1497.39,0.095,0.32811544409418575,False
+concept_drift,bedrooms,Chi-square,2.47,2.56,1.3536564667794804,0.716432939703454,False
+concept_drift,house_age,KS,14.605,14.235,0.04,0.9973277498238406,False

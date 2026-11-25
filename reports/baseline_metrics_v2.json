@@ -1,0 +1,8 @@
+{
+    "model_name": "HousePriceDriftModel",
+    "model_version": 2,
+    "samples": 200,
+    "mae": 79957.94477137309,
+    "rmse": 100684.93824663667,
+    "r2": 0.9983794463172644
+}
